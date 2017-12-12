@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+It was much easier to see the differences than to try to scan through all the lines of code in the file. It makes it much easier to find mistakes.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+If you make any mistakes, it will be easier to roll back your code or undo a mistake so that you do not have to recreate an entire file from the beginning.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    You can group your changes and fixes into logical related changes. You avoid the problem of having too many
+    checkpoints as may be the case with Google docs. By choosing what and when to commit, you can keep your
+    changes easier to manage.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Tracking across multiple files is useful because code that relates to a particular feature may exist in more than
+    one file. For example, a function may be in a separate file than the file where it is called. If you just
+    tracked it in one location, it would not be updated in another, or show that this was changed.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    You use git log to see the latest commits which have a commit id associated with them. Next, use git diff 
+    and enter one of the IDs a space character followed by the other commit ID to compare. You will see how many
+    lines have been added or removed based on colors or + signs for additions, and - minus signs for deletions.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Having version control and checkpoints of past versions from commits will make you more confident to make changes
+    because if a bug or error is introduced, you can go back to find the earlier version and and rollback
+    your code to an earlier version before the bug was introduced, or find the addition or removed line of code
+    and correct it.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try using git to store changes to coding projects I work on. I will use it to help find where or when
+    I may have introduced bugs, and use it as a way to make find and fix errors.
