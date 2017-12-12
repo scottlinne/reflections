@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+When you initialize with git init it sets up this repository to be tracked by git. You initialize an empty repository so that files can 
+begin getting tracked. You need to initialize a git repository so that git can be set up to track changes to files.
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+The staging area is an in-between holding place for files to be commited for tracking. this separates files
+from the working directory, and ensures individual files or sets of files are tracked.
