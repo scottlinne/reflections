@@ -14,3 +14,5 @@ Why might you want to always pull changes manually rather than having Git automa
 Branches exist within your own system, and are used when making different versions so you can test new features
 or work on bug fixes.
  
+ What is the benefit of having a copy of the last known state of the remote stored locally?
+ it allows you work on this version even if you are offline.
