@@ -16,3 +16,13 @@ What are some situations when branches would be helpful in keeping your history 
 When you want to try changes to files withou affecting the main code base. You can create branches and checkout
 these branches to work on tests or create variations to see how they would work.
 
+How do the diagrams help you visualize the branch structure?
+It helps you see the parent relationships and understnad which branches are accessible and which are not
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging the two branches brings the commit history from two separate brances together so you can go back to previous states
+you can also delete one of the branches after merging
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+The pros are this ensures you have to review the conflicts and discuss with other team members so that 
+changes that should be included do not get removed.
