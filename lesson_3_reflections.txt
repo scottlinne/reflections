@@ -16,3 +16,8 @@ or work on bug fixes.
  
  What is the benefit of having a copy of the last known state of the remote stored locally?
  it allows you work on this version even if you are offline.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+without git or github you could collaborate on a shared netowork folder, or share via sending files back and forth
+with email. It may be easier using email and each message would server as a version, however, it makes it difficult
+to merge changes.
