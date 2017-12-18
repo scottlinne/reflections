@@ -21,3 +21,10 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 without git or github you could collaborate on a shared netowork folder, or share via sending files back and forth
 with email. It may be easier using email and each message would serve as a version, however, it makes it difficult
 to merge changes.
+
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+Make changes in a separate branch when you want to work on testing a new feature and don't want to change the orginal code
+in the master branch
+working directly in the master means less merging with branches, but working in branches allows you to keep
+separate versions
