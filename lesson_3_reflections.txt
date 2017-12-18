@@ -19,5 +19,5 @@ or work on bug fixes.
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 without git or github you could collaborate on a shared netowork folder, or share via sending files back and forth
-with email. It may be easier using email and each message would server as a version, however, it makes it difficult
+with email. It may be easier using email and each message would serve as a version, however, it makes it difficult
 to merge changes.
